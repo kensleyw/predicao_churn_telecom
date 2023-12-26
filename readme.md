@@ -7,6 +7,16 @@ A rotatividade é um dos maiores problemas da indústria de telecomunicações. 
 ## Objetivo 
 Prever o comportamento para reter clientes. Analisar todos os dados relevantes dos clientes e desenvolver programa que prevê a possibilidade de saída de clientes
 
+## Como utilizar
+* Instale as bibliotecas
+```bash
+pip install -r requirements.txt
+```
+
+* Execute o streamlit
+```bash
+streamlit run app.py
+```
 ## Informações sobre o conjunto de dados
 ### Serviços nos quais cada cliente se inscreveu
 Telefone, múltiplas linhas, internet, segurança online, backup online, proteção de dispositivos, suporte técnico e streaming de TV e filmes
@@ -17,8 +27,8 @@ Há quanto tempo ele é cliente, contrato, forma de pagamento, faturamento sem p
 ### Informações demográficas sobre clientes
 Sexo, faixa etária e se possuem companheiros e dependentes
 
-## Arquitetura dos dados
-**customerID: ** Identificação do Cliente
+## Arquitetura dos dados utilizada para treino e teste
+**customerID:** Identificação do Cliente
 
 **gender:** Se o cliente é homem ou mulher
 
@@ -65,3 +75,4 @@ Sexo, faixa etária e se possuem companheiros e dependentes
 
 ## Fonte
 https://www.kaggle.com/datasets/blastchar/telco-customer-churn
+
